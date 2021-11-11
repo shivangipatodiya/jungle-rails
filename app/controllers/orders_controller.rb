@@ -2,6 +2,9 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    @line_items = LineItem.joins(:order).where(order_id: 1)
+    #@line_items = LineItem.find(order_id: 3)
+    # @line_items = LineItem.joins(:orders).where(order_id: @order.id).pluck(:email)
   end
 
   def create
