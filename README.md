@@ -31,3 +31,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Final Product 
+
+!["Home page"](docs/home-page.png)
+!["Product detail"](docs/product-detail-page.png)
+!["Empty cart"](docs/empty-cart.png)
+!["Cart filled with items"](docs/cart-with-items.png)
+!["Order payment"](docs/order-payment.png)
+!["Form to create new product"](docs/New-product-form.png)
